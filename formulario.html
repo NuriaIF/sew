@@ -34,10 +34,10 @@
 
     <form name="Formulario">
         <fieldset>
-            <label>Introduce tus datos</label><br>
-            Nombre y apellidos: <input type="text"><br>
-            E-mail: <input type="email"><br>
-            Fecha de nacimiento: <input type="Fecha de nacimiento"><br>
+            <legend>Introduce tus datos</legend><br>
+            <label for="nombre">Nombre y apellidos:</label> <input type="text" id="nombre"><br>
+            <label for="e-mail">E-mail:</label> <input type="email" id="e-mail"><br>
+            <label for="fechaNacimiento">Fecha de nacimiento:</label> <input type="Fecha de nacimiento" id="fechaNacimiento"><br>
         </fieldset>
         <fieldset>
             <label>¿Sabes programar en JavaScript?</label><br>
@@ -87,10 +87,10 @@
             <input type="checkbox" name="brendan" value="informático teórico" >Informático teórico<br>
             <input type="checkbox" name="brendan" value="director tecnología" >Director de tecnología<br>
         </fieldset>
-      <!----  <fieldset>
-            Valora JavaScript con una nota en el rango [0,10]: <input type="number" min="0" max="10"><br>
-            Valora la importancia de Brendan Eich en la informática en el rango [0,10]: <input type="number" min="0" max="10"><br>
-        </fieldset>*/-->
+       <fieldset>
+            <label for="notaJS">Valora JavaScript con una nota en el rango [0,10]:</label> <input type="number" min="0" max="10" id="notaJS"><br>
+            <label for="importancia">Valora la importancia de Brendan Eich en la informática en el rango [0,10]:</label> <input type="number" min="0" max="10" id="importancia"><br>
+        </fieldset>
         <fieldset>
             <label>Desarrolla tu opinion sobre Brendan y JavaScript</label><br>
             <textarea cols="50" rows="6" ></textarea>
