@@ -1,0 +1,80 @@
+/*Especificidad: 000*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Especificidad: 001*/
+html{
+  font-family: Tahoma, sans-serif;
+}
+/*Especificidad: 001*/
+body {
+  
+  display: grid;
+  grid-template-areas: "head"
+                       "menu"
+                       "main"
+                       "foot";
+}
+/*Especificidad: 001*/
+header{
+  grid-area: head;
+  background-color: #F0DB4F;
+  color: #323330;
+  text-transform: uppercase;
+  padding: 1em;
+  text-align: center;
+}
+/*Especificidad: 001*/
+main{
+  background-color: #FFF6BD;
+  grid-area: main;
+  padding: 1em;
+  padding-top:3em;
+  text-align: justify;
+}
+/*Especificidad: 002*/
+main>p{
+  margin: 1em;
+  padding: 1em;
+}
+/*Especificidad: 013*/
+main>p:first-of-type::first-letter{
+  font-size: 2rem;
+}
+/*Especificidad: 001*/
+img{
+  margin:1em;
+  float:left;
+  padding-right: 1em;
+  height:auto;
+}
+audio{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+/*Especificidad: 001*/
+video{
+  padding-top:2em;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+/*Especificidad: 001*/
+h2{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+/*Especificidad: 001*/
+footer{
+  grid-area:foot;
+  background-color: lightgrey;
+  color:gray;
+  padding:1em;
+}
+
