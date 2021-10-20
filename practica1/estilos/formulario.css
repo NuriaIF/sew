@@ -31,3 +31,6 @@ fieldset{
 textarea{
     resize: none;
 }
+form{
+    width:100%;
+}
