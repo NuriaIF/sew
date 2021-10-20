@@ -11,7 +11,7 @@ nav>ul{
 }
 /*Especificidad: 004*/
 nav>ul li>a{
-    background-color: gray;
+    background-color: #332F2C;
     color: white;
     padding: 10px;
     display: block;
