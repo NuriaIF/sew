@@ -74,7 +74,7 @@ h2{
 footer{
   grid-area:foot;
   background-color: lightgrey;
-  color:gray;
+  color:black;
   padding:1em;
 }
 
