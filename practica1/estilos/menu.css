@@ -1,0 +1,37 @@
+/*Especificidad: 001*/
+nav {
+  z-index: 1;
+  position:relative;
+  width:100%;
+}
+/*Especificidad: 002*/
+nav>ul{
+    list-style: none;
+}
+/*Especificidad: 004*/
+nav>ul li>a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+/*Especificidad: 014*/
+nav>ul li>a:hover{
+    color: #F0DB4F;
+    background-color: #323330;
+}
+/*Especificidad: 003*/
+nav>ul>li{
+    text-align:center;
+}
+/*Especificidad: 004*/
+nav>ul>li>ul{
+    display: none;
+}
+/*Especificidad: 014*/
+nav>ul>li:hover>ul {
+    display:block;
+}
+
