@@ -1,7 +1,8 @@
 /*Especificidad: 001*/
 nav {
   z-index: 1;
-  position:relative;
+  position:absolute;
+  margin-top: 4em;
   width:100%;
 }
 /*Especificidad: 002*/
