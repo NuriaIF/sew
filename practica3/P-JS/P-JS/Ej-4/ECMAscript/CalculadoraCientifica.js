@@ -103,6 +103,9 @@ class CalculadoraCientifica extends Calculadora {
         if (this.notacionCientifica){
             var parteEntera = result.substring(0,1)
             var parteDecimal = result.substring(1,result.length)
+            var a = parteDecimal.split('.')[0]
+            var b = parteDecimal.split('.')[1]
+            parteDecimal = a+b
             result = parteEntera+"."+parteDecimal+"e+"+(result.length-1)
         } 
         if (result=="undefined")
@@ -540,8 +543,6 @@ class CalculadoraCientifica extends Calculadora {
 
     twoPoweredToThe(){
         if(!this.twondClicked){
-            document.getElementsByName("twond")[0].style.backgroundColor = 'lightblue'
-
             document.getElementsByName("powerTwoOf")[0].innerHTML='x<sup>3</sup>'
             document.getElementsByName("powerTwoOf")[0].setAttribute('onclick',"calculadora.powerThreeOf()")
 
@@ -562,8 +563,6 @@ class CalculadoraCientifica extends Calculadora {
             
             this.twondClicked = true
         } else {
-            document.getElementsByName("twond")[0].style.backgroundColor = 'white'
-
             document.getElementsByName("powerTwoOf")[0].innerHTML='x<sup>2</sup>'
             document.getElementsByName("powerTwoOf")[0].setAttribute('onclick',"calculadora.powerTwoOf()")
 
@@ -588,7 +587,6 @@ class CalculadoraCientifica extends Calculadora {
     }
     twoND(){
         if(!this.twondClickedTrig){
-            document.getElementsByName("twondtrig")[0].style.backgroundColor = 'lightblue'
             document.getElementsByName("sin")[0].innerHTML+='<sup>-1</sup>'
             document.getElementsByName("cos")[0].innerHTML+='<sup>-1</sup>'
             document.getElementsByName("tan")[0].innerHTML+='<sup>-1</sup>'
@@ -616,7 +614,6 @@ class CalculadoraCientifica extends Calculadora {
             this.twondClickedTrig = true
 
         } else {
-            document.getElementsByName("twondtrig")[0].style.backgroundColor = 'lightgray'
             if(this.hypClicked) {
                 document.getElementsByName("sin")[0].innerHTML='sinh'
                 document.getElementsByName("sin")[0].setAttribute('onclick',"calculadora.sinh()")
@@ -654,7 +651,6 @@ class CalculadoraCientifica extends Calculadora {
                 document.getElementsByName("cot")[0].innerHTML='cot'
                 document.getElementsByName("cot")[0].setAttribute('onclick',"calculadora.cot()")
             
-            
             }
 
             this.twondClickedTrig = false
@@ -662,7 +658,6 @@ class CalculadoraCientifica extends Calculadora {
     }
     hyp(){
         if(!this.hypClicked){
-            document.getElementsByName("hyp")[0].style.backgroundColor = 'lightblue'
             document.getElementsByName("sin")[0].innerHTML=document.getElementsByName("sin")[0].innerHTML.replace('sin','sinh')
             document.getElementsByName("cos")[0].innerHTML=document.getElementsByName("cos")[0].innerHTML.replace('cos','cosh')
             document.getElementsByName("tan")[0].innerHTML=document.getElementsByName("tan")[0].innerHTML.replace('tan','tanh')
@@ -690,7 +685,6 @@ class CalculadoraCientifica extends Calculadora {
             this.hypClicked = true
 
         } else {
-            document.getElementsByName("hyp")[0].style.backgroundColor = 'lightgray'
             document.getElementsByName("sin")[0].innerHTML=document.getElementsByName("sin")[0].innerHTML.replace('h','')
             document.getElementsByName("cos")[0].innerHTML=document.getElementsByName("cos")[0].innerHTML.replace('h','')
             document.getElementsByName("tan")[0].innerHTML=document.getElementsByName("tan")[0].innerHTML.replace('h','')
@@ -723,10 +717,8 @@ class CalculadoraCientifica extends Calculadora {
     FE() {
         if (this.notacionCientifica){
             this.notacionCientifica = false
-            document.getElementsByName("fe")[0].style.backgroundColor = 'gainsboro'
         } else {
             this.notacionCientifica = true
-            document.getElementsByName("fe")[0].style.backgroundColor = 'lightblue'
         }
     }
     MC(){

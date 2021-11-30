@@ -23,8 +23,8 @@ fieldset input[type="text"]{
 }
 fieldset{
     border: none;
-    
 }
+
 fieldset:nth-of-type(1){
     position: relative;
     
