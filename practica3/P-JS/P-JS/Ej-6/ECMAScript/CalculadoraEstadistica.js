@@ -29,6 +29,16 @@ class CalculadoraEstadistica extends CalculadoraRPN {
             this.escribirY(this.screenY)
         }
     }
+    borrarUnNumero(){
+        if (!this.introducirY){
+            this.screen=this.screen.substring(0,this.screen.length-1)
+            this.escribir(this.screen)
+        } else {
+            this.screenY=this.screenY.substring(0,this.screenY.length-1)
+            this.escribirY(this.screenY)
+        }
+
+    }
 
     getStack(v){
         if (v=='x'){
