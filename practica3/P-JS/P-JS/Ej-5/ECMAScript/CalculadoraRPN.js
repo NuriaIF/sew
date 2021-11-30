@@ -18,7 +18,8 @@ class CalculadoraRPN {
     saveResult(result){
         this.screen=""
         this.stack.push(result+"")
-        document.getElementsByName("text")[0].innerHTML=""
+        document.getElement
+        document.getElementsByTagName("ul")[0].innerHTML=""
         this.drawStack(this.stack.length+1)
     }
     suma(){
@@ -80,13 +81,13 @@ class CalculadoraRPN {
     enter(){
         this.stack.push(this.screen)
         console.log(this.stack)
-        document.getElementsByName("text")[0].innerHTML = "<li>1: </li>"
+        document.getElementsByTagName("ul")[0].innerHTML = "<li>1: </li>"
         this.drawStack(this.stack.length+2)
         this.screen=""
     }
 
     escribir(content){
-        document.getElementsByName("text")[0].innerHTML = "<li>1: "+content+"</li>"
+        document.getElementsByTagName("ul")[0].innerHTML = "<li>1: "+content+"</li>"
 
         this.drawStack(this.stack.length+2)
     }
@@ -98,7 +99,7 @@ class CalculadoraRPN {
             s+="<li>"+i+": "+elemento+"</li>"
         })
 
-        document.getElementsByName("text")[0].innerHTML =s+document.getElementsByName("text")[0].innerHTML
+        document.getElementsByTagName("ul")[0].innerHTML =s+document.getElementsByTagName("ul")[0].innerHTML
     }
 
     shift(){
