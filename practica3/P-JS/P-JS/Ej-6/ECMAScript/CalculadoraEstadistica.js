@@ -141,10 +141,8 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         var texto
         if (v == 'x'){
             stack = this.stack
-            texto = "text"
         } else {
             stack = this.stackY
-            texto = "textY"
         }
         var n = stack.length
         for (var i in stack) {
@@ -152,7 +150,7 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         }
         var result = suma/n
         result=result-Math.pow(this.media(v,false),2)
-        this.mostrar(texto,"σ2",result)
+        this.mostrar(v,"σ2",result)
         return result
     }
     varianzaMuestral(v){
@@ -161,10 +159,8 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         var texto
         if (v == 'x'){
             stack = this.stack
-            texto = "text"
         } else {
             stack = this.stackY
-            texto = "textY"
         }
         var n = stack.length
         for (var i in stack) {
@@ -172,19 +168,19 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         }
         var result = suma/(n-1)
         result=result-(n*Math.pow(this.media(v,false),2))/(n-1)
-        this.mostrar(texto,"s2",result)
+        this.mostrar(v,"s2",result)
         return result
     }
     desviacionTipicaPoblacional(v){
         var result=Math.sqrt(this.varianzaPoblacional(v))
-        this.mostrar("text","σ",result)
+        this.mostrar(v,"σ",result)
     }
     desviacionTipicaMuestral(v){
         var result=Math.sqrt(this.varianzaMuestral(v))
         if (v == 'x')
-            this.mostrar("text","s",result)
+            this.mostrar(v,"s",result)
         else
-            this.mostrar("textY","s",result)
+            this.mostrar(v,"s",result)
     }
     coeficienteCorrelacion(){
         var r
@@ -265,19 +261,19 @@ class CalculadoraEstadistica extends CalculadoraRPN {
             enoughNumbers = true
        
         if (variable == 'y') {
-            document.getElementsByName("textY")[0].innerHTML = "<li>"+operacion+": "+content+"</li>"
+            document.document.getElementsByTagName("ul")[1].innerHTML = "<li>"+operacion+": "+content+"</li>"
             this.drawStackY(this.stack.length+2)
         } else {
-            document.getElementsByName("text")[0].innerHTML = "<li>"+operacion+": "+content+"</li>"
+            document.document.getElementsByTagName("ul")[0].innerHTML = "<li>"+operacion+": "+content+"</li>"
             this.drawStack(this.stack.length+2)
         }
         if (content == "No coincide la cantidad de 'x' y de 'y'"){
-            document.getElementsByName("text")[0].innerHTML = "<li>"+operacion+": "+content+"</li>"
+            document.gdocument.getElementsByTagName("ul")[0].innerHTML = "<li>"+operacion+": "+content+"</li>"
             this.drawStack(this.stack.length+2)
             return
         }
         if (!enoughNumbers) {
-            document.getElementsByName("text")[0].innerHTML = "<li>"+operacion+": "+"No hay datos suficientes"+"</li>"
+            document.document.getElementsByTagName("ul")[0].innerHTML = "<li>"+operacion+": "+"No hay datos suficientes"+"</li>"
             return
         }
         
@@ -303,14 +299,14 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         }
     }
     escribirY(content){
-        document.getElementsByName("textY")[0].innerHTML = "<li>1: "+content+"</li>"
+        document.getElementsByTagName("ul")[1].innerHTML = "<li>1: "+content+"</li>"
 
         this.drawStackY(this.stackY.length+2)
     }
     enterY(){
         this.stackY.push(parseFloat(this.screenY))
         console.log(this.stackY)
-        document.getElementsByName("textY")[0].innerHTML = "<li>1: </li>"
+        document.getElementsByTagName("ul")[1].innerHTML = "<li>1: </li>"
         this.drawStackY(this.stackY.length+2)
         this.screenY=""
     }
@@ -320,7 +316,7 @@ class CalculadoraEstadistica extends CalculadoraRPN {
             i=i-1
             s+="<li>"+i+": "+elemento+"</li>"
         })
-        document.getElementsByName("textY")[0].innerHTML =s+document.getElementsByName("textY")[0].innerHTML
+        document.getElementsByTagName("ul")[1].innerHTML =s+document.document.getElementsByTagName("ul")[1].innerHTML
     }
 
 
