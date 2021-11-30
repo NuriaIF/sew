@@ -31,6 +31,7 @@ form{
 /*Especificidad: 0 0 1*/
 fieldset{
     border: none;
+    text-align: left;
 }
 /*Especificidad: 0 1 1*/
 fieldset:nth-child(1){

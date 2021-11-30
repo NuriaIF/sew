@@ -7,28 +7,32 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         
         this.mapX = new Map()
         this.mapY = new Map()
-        this.map = this.mapX
 
         this.stackY = []
         this.introducirY = false
+        this.map = this.mapX
+        this.variable = 'x'
         this.screenY = ""
     }
     x(){
         this.introducirY = false
         this.map = this.mapX
+        this.variable = 'x'
     }
     y(){
         this.introducirY = true
         this.map = this.mapY
+        this.variable = 'y'
     }
-    digits(n){
+    digitos(n){
         if (!this.introducirY){
-            this.digitos(n)
+            super.digitos(n)
         } else {
             this.screenY=this.screenY.concat(n)
             this.escribirY(this.screenY)
         }
     }
+    
     borrarUnNumero(){
         if (!this.introducirY){
             this.screen=this.screen.substring(0,this.screen.length-1)
@@ -289,7 +293,7 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         
         
     }
-    apilar(){
+    enter(){
         if (!this.introducirY) {
             var num = parseFloat(this.screen)
             if (this.map.get(num)==undefined){
@@ -297,7 +301,7 @@ class CalculadoraEstadistica extends CalculadoraRPN {
             } else {
                 this.map.set(num,this.map.get(num)+1)
             }
-            this.enter()
+            super.enter()
         } else {
             var num = parseFloat(this.screenY)
             if (this.map.get(num)==undefined){
@@ -326,10 +330,22 @@ class CalculadoraEstadistica extends CalculadoraRPN {
             i=i-1
             s+="<li>"+i+": "+elemento+"</li>"
         })
-        document.getElementsByTagName("ul")[1].innerHTML =s+document.document.getElementsByTagName("ul")[1].innerHTML
+        document.getElementsByTagName("ul")[1].innerHTML =s+document.getElementsByTagName("ul")[1].innerHTML
     }
 
-
-
 }
+
+document.addEventListener('keydown', (event) => {
+    const keyName = event.key;
+    switch(keyName){
+        case "x":
+            calculadora.x()
+            break
+        case "y":
+            calculadora.y()
+            break
+    }
+  });
+
+
 var calculadora = new CalculadoraEstadistica()

@@ -157,7 +157,7 @@ document.addEventListener('keydown', (event) => {
         case "+":
             calculadora.suma()
             break
-        case "=":
+        case "Enter":
             calculadora.igual()
             break
         case "m":

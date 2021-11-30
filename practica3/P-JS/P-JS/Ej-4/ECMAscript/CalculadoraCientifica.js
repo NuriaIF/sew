@@ -784,34 +784,34 @@ document.addEventListener('keydown', (event) => {
     switch(keyName){
         case "Backspace":
             calculadora.borrarUnNumero()
-            break;
+            break
         case "e":
             calculadora.e()
-            break;
+            break
         case "c":
             calculadora.borrar()
             break;
         case "%":
             calculadora.mod()
-            break;
+            break
         case "l":
             calculadora.log()
             break;
         case "m":
             calculadora.dms()
-            break;
+            break
         case "q":
             calculadora.powerTwoOf()
-            break;
+            break
         case "r":
             calculadora.inverse()
-            break;
+            break
         case "t":
             calculadora.tan()
-            break;
+            break
         case "y":
             calculadora.XtoTheY()
-            break;
+            break
         
     }
 

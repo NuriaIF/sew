@@ -79,7 +79,7 @@ class CalculadoraRPN {
     }
     
     enter(){
-        this.stack.push(this.screen)
+        this.stack.push(parseFloat(this.screen))
         console.log(this.stack)
         document.getElementsByTagName("ul")[0].innerHTML = "<li>1: </li>"
         this.drawStack(this.stack.length+2)
@@ -130,7 +130,45 @@ class CalculadoraRPN {
 
 }
 
-
+document.addEventListener('keydown', (event) => {
+    const keyName = event.key;
+    switch(keyName){
+        case "0":
+        case "1":
+        case "2":
+        case "3":
+        case "4":
+        case "5":
+        case "6":
+        case "7":
+        case "8":
+        case "9":
+            calculadora.digitos(keyName)
+            break;
+        case ".":
+        case ",":
+            calculadora.punto()
+            break
+        case "/":
+            calculadora.division()
+            break
+        case "*":
+            calculadora.multiplicacion()
+            break
+        case "-":
+            calculadora.resta()
+            break
+        case "+":
+            calculadora.suma()
+            break
+        case "Enter":
+            calculadora.enter()
+            break
+        case "Backspace":
+            calculadora.borrarUnNumero()
+            break
+    }
+  });
 
 
 
