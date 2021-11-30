@@ -57,12 +57,9 @@ button{
     border:whitesmoke outset 0.3em;
     background-color: white;
 }
-button:hover{
-    border:gainsboro inset 0.3em;
-    background-color: gainsboro;
-}
+
 button:active{
-    border:gray inset 0.3em;
+    border:darkgray inset 0.3em;
     background-color: gray;
 }
 button,button:hover,button:active{
