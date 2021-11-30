@@ -1,0 +1,70 @@
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: black;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+form{
+    padding: 1.5em;
+    border-radius: 1em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+fieldset:nth-child(1){
+    margin-bottom:2em ;
+    border: inset 0.3em black;
+    background-color: rgb(224, 224, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+fieldset:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0.2em;
+    justify-content: center;
+}
+fieldset:nth-child(2)>button:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+fieldset:nth-child(2)>button:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+fieldset:nth-child(2)>button:nth-child(19){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+fieldset{
+    border: none;
+}
+button{
+    height: 5em;
+}
+ul{
+    list-style: none;
+}
+button{
+    border:whitesmoke outset 0.3em;
+    background-color: white;
+}
+button:hover{
+    border:gainsboro inset 0.3em;
+    background-color: gainsboro;
+}
+button:active{
+    border:gray inset 0.3em;
+    background-color: gray;
+}
+button,button:hover,button:active{
+    border-radius: 0.5em;
+}
