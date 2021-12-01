@@ -294,6 +294,7 @@ class CalculadoraEstadistica extends CalculadoraRPN {
         
     }
     enter(){
+        console.log("pantalla: "+this.screen)
         if (!this.introducirY) {
             var num = parseFloat(this.screen)
             if (this.map.get(num)==undefined){
