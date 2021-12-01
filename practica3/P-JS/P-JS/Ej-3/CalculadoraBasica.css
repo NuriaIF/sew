@@ -70,8 +70,13 @@ form fieldset:nth-of-type(2) button:nth-child(4n){
     background-color: maroon;
     color: blanchedalmond;
 }
-/*Especificidad: 0 2 3*/
-form fieldset:nth-of-type(2) button:nth-child(20){
+/*Especificidad: 0 1 1*/
+input[type="submit"]{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 0.5em;
+    font-size: 2.5em;
     background-color: floralwhite;
     color: black;
 }
