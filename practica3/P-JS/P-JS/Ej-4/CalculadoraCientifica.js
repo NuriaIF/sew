@@ -110,7 +110,7 @@ class CalculadoraCientifica extends Calculadora {
         } 
         if (result=="undefined")
             result="Error"
-        
+        console.log(result)
         escribir( ""+result )
         return result
     }

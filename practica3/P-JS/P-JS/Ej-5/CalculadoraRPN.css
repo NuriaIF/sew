@@ -46,11 +46,6 @@ fieldset:nth-child(2){
     gap: 0.2em;
     justify-content: center;
 }
-/*Especificidad: 0 2 2*/
-fieldset:nth-child(2)>button:nth-child(23){
-    grid-column-start: 3;
-    grid-column-end: 5;
-}
 /*Especificidad: 0 0 1*/
 ul{
     list-style: none;
@@ -71,4 +66,12 @@ button:active{
 /*Especificidad: 0 1 1*/
 button:hover,button:active{
     border-radius: 0.5em;
+}
+/*Especificidad: 0 1 1*/
+input[type="submit"]{
+    height: 5em;
+    border-radius: 0.5em;
+    border:whitesmoke outset 0.3em;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
