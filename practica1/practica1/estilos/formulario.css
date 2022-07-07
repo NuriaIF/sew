@@ -20,19 +20,19 @@ input[type=submit]{
 }
 /*Especificidad: 021*/
 input[type=submit]:hover{
-    background-color: yellow;
+    background-color: #F0DB4F;
     color:black;
 }
 /*Especificidad: 001*/
 fieldset{
     padding-bottom: 2em;
+    padding: 1em;
     border:outset;
     border-color:#F0DB4F;
 }
 /*Especificidad: 001*/
 textarea{
     resize: none;
-}
-form{
-    width:100%;
+    width: 18em;
+    padding: 0.5em;
 }
