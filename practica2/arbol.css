@@ -1,0 +1,26 @@
+/**ESPECIFICIDAD: (0, 0, 1) **/
+body{
+    color: bisque;
+    background-color: indigo;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  /**ESPECIFICIDAD: (0, 0, 1) **/
+  header{
+    font-size:3em;
+    text-align: center;
+    color: indigo;
+    background-color: plum;
+  }
+  /**ESPECIFICIDAD: (0, 0, 1) **/
+  footer{
+    background-color: rebeccapurple;
+    color: blanchedalmond;
+    border:plum solid 0.5em;
+    border-radius: 1em;
+    padding: 1em;
+  }
+  /**ESPECIFICIDAD: (0, 0, 3) **/
+  footer address a{
+    color:lavender;
+    font-weight: bold;
+  }
