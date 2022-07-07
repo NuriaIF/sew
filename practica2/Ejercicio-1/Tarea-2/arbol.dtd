@@ -1,0 +1,18 @@
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (datos,persona?,persona?)>
+<!ATTLIST persona 
+	nombre CDATA #REQUIRED
+	apellidos CDATA #REQUIRED>
+<!ELEMENT datos (fechaNacimiento, lugarNacimiento, coordsNacimiento, fechaFallecimiento?, lugarFallecimiento?, coordsFallecimiento?, foto+, video*, comentario)>
+<!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT lugarNacimiento (#PCDATA)>
+<!ELEMENT coordsNacimiento (longitud,latitud,altitud)>
+<!ELEMENT fechaFallecimiento (#PCDATA)>
+<!ELEMENT lugarFallecimiento (#PCDATA)>
+<!ELEMENT coordsFallecimiento (longitud,latitud,altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>

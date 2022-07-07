@@ -1,0 +1,23 @@
+JQuery ejercicio 6-7
+En un onclick no puede haber una llamada a JQuery, no es OO
+Tendremos una llamada a un objeto del que crearemos una estancia,
+no podemos poner llamadas directamente a JQuery
+Clase bombilla: enseña como encapsular en un objeto las llamadas
+a JQuery
+Clase, contructor y unos metodos, dentro de esos metodos invocamos a Jquery
+No hay que parsear en XML, los datos los metemos nosotros, no hay que leer el XML
+Servicio web a nuestra elección:
+	1- Json y mas adelante servicios web de XML metodologia
+	2- Que devuelva json y xml
+	3- html con icono que devuelve de cada sitio. Que devuelva icono
+OpenWeatherMap
+icon: "04n.mpg"
+
+Calculadora: formulario
+50 lineas de CSS
+Una regla para el formulario
+Una regla para los inputs de tipo texto (pantalla)
+Una regla para los inputs de tipo boton
+Una regla más específica para los botones de otros colores
+
+input[type=button] : ntt-child(4n+1)

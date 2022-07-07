@@ -1,0 +1,33 @@
+main {
+    background-color:black;
+    width: 15em;
+    height: 17.5em;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 5em;
+
+}
+main > form {
+    display: grid;
+    grid-template-columns: 2.5em 2.5em 2.5em 2.5em 2.5em 2.5em;
+    grid-template-rows:1.6em 1.6em 1.6em 1.6em 1.6em 1.6em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 1em;
+    background-color: black;
+}
+input[type=textarea] {
+    resize: none;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: white;
+    height: 10em;
+    margin-top: 1.5em;
+    
+}
+input[type=button]:nth-child(12) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}

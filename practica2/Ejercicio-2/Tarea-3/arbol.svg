@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="10000" height="10000" style="overflow:visible" version="1.1">
+<rect x="1500" y="20" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="1520" y="40.0" font-size="10" style="fill:plum">Nuria Inchaurrandieta Fernández</text>
+<rect x="1510" y="70" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="1530" y="90.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="1530" y="100.0" font-size="10" style="fill:rebeccapurple">2001-05-04</text>
+<text x="1530" y="110.0" font-size="10" style="fill:rebeccapurple">Gijón, Asturias</text>
+<text x="1530" y="120.0" font-size="10" style="fill:rebeccapurple">-5.647731114109561 </text><text x="1530" y="130.0" font-size="10" style="fill:rebeccapurple">43.53527084736443 </text><text x="1530" y="140.0" font-size="10" style="fill:rebeccapurple">5 </text>
+<text x="1530" y="150.0" font-size="10" style="fill:rebeccapurple">multimedia/nuria.png</text>
+<text x="1530" y="160.0" font-size="10" style="fill:rebeccapurple">multimedia/nuria_video.mp4</text>
+<text x="1530" y="170.0" font-size="10" style="fill:rebeccapurple">Estudiante de Ingeniería Informática del</text>
+<text x="1530" y="180.0" font-size="10" style="fill:rebeccapurple"> Software</text><path d="M1600.0 60 C1600.0 60 1600.0 70 1600.0 70" style="fill:transparent;stroke:black"/><path d="M1600.0 60 C800.0 60 1600.0 220 800.0 220" style="fill:transparent;stroke:black"/>
+<rect x="700" y="220" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="720" y="240.0" font-size="10" style="fill:plum">Roberto Inchaurrandieta Granda</text>
+<rect x="710" y="270" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="730" y="290.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="730" y="300.0" font-size="10" style="fill:rebeccapurple">1971-07-26</text>
+<text x="730" y="310.0" font-size="10" style="fill:rebeccapurple">Pravia, Asturias</text>
+<text x="730" y="320.0" font-size="10" style="fill:rebeccapurple">-6.112974715606762 </text><text x="730" y="330.0" font-size="10" style="fill:rebeccapurple">43.48615050039599 </text><text x="730" y="340.0" font-size="10" style="fill:rebeccapurple">59 </text>
+<text x="730" y="350.0" font-size="10" style="fill:rebeccapurple">multimedia/padre.png</text>
+<text x="730" y="360.0" font-size="10" style="fill:rebeccapurple">Padre</text><path d="M800.0 260 C800.0 260 800.0 270 800.0 270" style="fill:transparent;stroke:black"/><path d="M800.0 260 C500.0 260 800.0 420 500.0 420" style="fill:transparent;stroke:black"/>
+<rect x="400" y="420" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="420" y="440.0" font-size="10" style="fill:plum">Luciano Inchaurrandieta Pérez</text>
+<rect x="410" y="470" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="430" y="490.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="430" y="500.0" font-size="10" style="fill:rebeccapurple">1940-05-18</text>
+<text x="430" y="510.0" font-size="10" style="fill:rebeccapurple">Viu de Llevata, Lleida</text>
+<text x="430" y="520.0" font-size="10" style="fill:rebeccapurple">0.8121072331378797 </text><text x="430" y="530.0" font-size="10" style="fill:rebeccapurple">42.369490391361744 </text><text x="430" y="540.0" font-size="10" style="fill:rebeccapurple">1234 </text>
+<text x="430" y="550.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="430" y="560.0" font-size="10" style="fill:rebeccapurple">2003-09-04</text>
+<text x="430" y="570.0" font-size="10" style="fill:rebeccapurple">Avilés, Asturias</text>
+<text x="430" y="580.0" font-size="10" style="fill:rebeccapurple">-5.92714800211595 </text><text x="430" y="590.0" font-size="10" style="fill:rebeccapurple">43.55452206422115 </text><text x="430" y="600.0" font-size="10" style="fill:rebeccapurple">21 </text>
+<text x="430" y="610.0" font-size="10" style="fill:rebeccapurple">multimedia/abuelo_luciano.png</text>
+<text x="430" y="620.0" font-size="10" style="fill:rebeccapurple">Abuelo por parte de padre</text><path d="M500.0 460 C500.0 460 500.0 470 500.0 470" style="fill:transparent;stroke:black"/><path d="M500.0 460 C700.0 460 500.0 620 700.0 620" style="fill:transparent;stroke:black"/>
+<rect x="600" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="620" y="640.0" font-size="10" style="fill:plum">Juan Bautista Inchaurrandieta Zumarraga</text>
+<rect x="610" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="630" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="630" y="700.0" font-size="10" style="fill:rebeccapurple">1906-07-03</text>
+<text x="630" y="710.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="630" y="720.0" font-size="10" style="fill:rebeccapurple">-6.105562702215373 </text><text x="630" y="730.0" font-size="10" style="fill:rebeccapurple">43.543443469226325 </text><text x="630" y="740.0" font-size="10" style="fill:rebeccapurple">131 </text>
+<text x="630" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="630" y="760.0" font-size="10" style="fill:rebeccapurple">1992-05-22</text>
+<text x="630" y="770.0" font-size="10" style="fill:rebeccapurple">Soto del Barco, Asturias</text>
+<text x="630" y="780.0" font-size="10" style="fill:rebeccapurple">-6.071216075733286 </text><text x="630" y="790.0" font-size="10" style="fill:rebeccapurple">43.5327410987212 </text><text x="630" y="800.0" font-size="10" style="fill:rebeccapurple">61 </text>
+<text x="630" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuelo_juanbautista.png</text>
+<text x="630" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuelo por parte de abuelo por parte </text>
+<text x="630" y="830.0" font-size="10" style="fill:rebeccapurple">de padre</text><path d="M700.0 660 C700.0 660 700.0 670 700.0 670" style="fill:transparent;stroke:black"/><path d="M500.0 460 C300.0 460 500.0 620 300.0 620" style="fill:transparent;stroke:black"/>
+<rect x="200" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="220" y="640.0" font-size="10" style="fill:plum">María Pérez Gómez</text>
+<rect x="210" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="230" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="230" y="700.0" font-size="10" style="fill:rebeccapurple">1905-06-14</text>
+<text x="230" y="710.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="230" y="720.0" font-size="10" style="fill:rebeccapurple">-6.117188853029939 </text><text x="230" y="730.0" font-size="10" style="fill:rebeccapurple">43.546583727625325 </text><text x="230" y="740.0" font-size="10" style="fill:rebeccapurple">126 </text>
+<text x="230" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="230" y="760.0" font-size="10" style="fill:rebeccapurple">1971-05-12</text>
+<text x="230" y="770.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="230" y="780.0" font-size="10" style="fill:rebeccapurple">-6.115056099849746 </text><text x="230" y="790.0" font-size="10" style="fill:rebeccapurple">43.54462513987004 </text><text x="230" y="800.0" font-size="10" style="fill:rebeccapurple">136 </text>
+<text x="230" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuela_maria.png</text>
+<text x="230" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuela por parte de abuelo por parte </text>
+<text x="230" y="830.0" font-size="10" style="fill:rebeccapurple">de padre</text><path d="M300.0 660 C300.0 660 300.0 670 300.0 670" style="fill:transparent;stroke:black"/><path d="M800.0 260 C1100.0 260 800.0 420 1100.0 420" style="fill:transparent;stroke:black"/>
+<rect x="1000" y="420" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="1020" y="440.0" font-size="10" style="fill:plum">María Luisa Granda Valdés</text>
+<rect x="1010" y="470" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="1030" y="490.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="1030" y="500.0" font-size="10" style="fill:rebeccapurple">1942-08-10</text>
+<text x="1030" y="510.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="1030" y="520.0" font-size="10" style="fill:rebeccapurple">-6.105562702215373 </text><text x="1030" y="530.0" font-size="10" style="fill:rebeccapurple">43.543443469226325 </text><text x="1030" y="540.0" font-size="10" style="fill:rebeccapurple">131 </text>
+<text x="1030" y="550.0" font-size="10" style="fill:rebeccapurple">multimedia/abuela_luisa.png</text>
+<text x="1030" y="560.0" font-size="10" style="fill:rebeccapurple">Abuela por parte de padre</text><path d="M1100.0 460 C1100.0 460 1100.0 470 1100.0 470" style="fill:transparent;stroke:black"/><path d="M1100.0 460 C1300.0 460 1100.0 620 1300.0 620" style="fill:transparent;stroke:black"/>
+<rect x="1200" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="1220" y="640.0" font-size="10" style="fill:plum">Juan Salvador Granda Arango</text>
+<rect x="1210" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="1230" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="1230" y="700.0" font-size="10" style="fill:rebeccapurple">1905-04-19</text>
+<text x="1230" y="710.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="1230" y="720.0" font-size="10" style="fill:rebeccapurple">-6.104488616888746 </text><text x="1230" y="730.0" font-size="10" style="fill:rebeccapurple">43.54392395787351 </text><text x="1230" y="740.0" font-size="10" style="fill:rebeccapurple">129 </text>
+<text x="1230" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="1230" y="760.0" font-size="10" style="fill:rebeccapurple">1975-10-05</text>
+<text x="1230" y="770.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="1230" y="780.0" font-size="10" style="fill:rebeccapurple">-6.105338597679843 </text><text x="1230" y="790.0" font-size="10" style="fill:rebeccapurple">43.542968196793865 </text><text x="1230" y="800.0" font-size="10" style="fill:rebeccapurple">131 </text>
+<text x="1230" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuelo_juansalvador.png</text>
+<text x="1230" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuelo por parte de abuela por parte </text>
+<text x="1230" y="830.0" font-size="10" style="fill:rebeccapurple">de padre</text><path d="M1300.0 660 C1300.0 660 1300.0 670 1300.0 670" style="fill:transparent;stroke:black"/><path d="M1100.0 460 C900.0 460 1100.0 620 900.0 620" style="fill:transparent;stroke:black"/>
+<rect x="800" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="820" y="640.0" font-size="10" style="fill:plum">Alicia Claudia Valdés Grande</text>
+<rect x="810" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="830" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="830" y="700.0" font-size="10" style="fill:rebeccapurple">1905-06-07</text>
+<text x="830" y="710.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="830" y="720.0" font-size="10" style="fill:rebeccapurple">-6.103439310272827 </text><text x="830" y="730.0" font-size="10" style="fill:rebeccapurple">43.5420252216079 </text><text x="830" y="740.0" font-size="10" style="fill:rebeccapurple">114 </text>
+<text x="830" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="830" y="760.0" font-size="10" style="fill:rebeccapurple">1994-03-20</text>
+<text x="830" y="770.0" font-size="10" style="fill:rebeccapurple">Muros de Nalón, Asturias</text>
+<text x="830" y="780.0" font-size="10" style="fill:rebeccapurple">-6.104444111702224 </text><text x="830" y="790.0" font-size="10" style="fill:rebeccapurple">43.542848205718656 </text><text x="830" y="800.0" font-size="10" style="fill:rebeccapurple">130 </text>
+<text x="830" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuela_alicia.png</text>
+<text x="830" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuela por parte de abuela por parte </text>
+<text x="830" y="830.0" font-size="10" style="fill:rebeccapurple">de padre</text><path d="M900.0 660 C900.0 660 900.0 670 900.0 670" style="fill:transparent;stroke:black"/><path d="M1600.0 60 C2400.0 60 1600.0 220 2400.0 220" style="fill:transparent;stroke:black"/>
+<rect x="2300" y="220" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2320" y="240.0" font-size="10" style="fill:plum">María del Rocío Fernández Aragón</text>
+<rect x="2310" y="270" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2330" y="290.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2330" y="300.0" font-size="10" style="fill:rebeccapurple">1971-01-29</text>
+<text x="2330" y="310.0" font-size="10" style="fill:rebeccapurple">Gijón, Asturias</text>
+<text x="2330" y="320.0" font-size="10" style="fill:rebeccapurple">-5.607511687123249 </text><text x="2330" y="330.0" font-size="10" style="fill:rebeccapurple">43.52589336435242 </text><text x="2330" y="340.0" font-size="10" style="fill:rebeccapurple">61 </text>
+<text x="2330" y="350.0" font-size="10" style="fill:rebeccapurple">multimedia/madre.png</text>
+<text x="2330" y="360.0" font-size="10" style="fill:rebeccapurple">Madre</text><path d="M2400.0 260 C2400.0 260 2400.0 270 2400.0 270" style="fill:transparent;stroke:black"/><path d="M2400.0 260 C2100.0 260 2400.0 420 2100.0 420" style="fill:transparent;stroke:black"/>
+<rect x="2000" y="420" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2020" y="440.0" font-size="10" style="fill:plum">Baltasar Fernández Pastor</text>
+<rect x="2010" y="470" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2030" y="490.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2030" y="500.0" font-size="10" style="fill:rebeccapurple">1937-02-22</text>
+<text x="2030" y="510.0" font-size="10" style="fill:rebeccapurple">Villalobos, Zamora</text>
+<text x="2030" y="520.0" font-size="10" style="fill:rebeccapurple">-5.4759527238233625 </text><text x="2030" y="530.0" font-size="10" style="fill:rebeccapurple">41.94602846067811 </text><text x="2030" y="540.0" font-size="10" style="fill:rebeccapurple">724 </text>
+<text x="2030" y="550.0" font-size="10" style="fill:rebeccapurple">multimedia/abuelo_baltasar.png</text>
+<text x="2030" y="560.0" font-size="10" style="fill:rebeccapurple">Abuelo por parte de madre</text><path d="M2100.0 460 C2100.0 460 2100.0 470 2100.0 470" style="fill:transparent;stroke:black"/><path d="M2100.0 460 C2300.0 460 2100.0 620 2300.0 620" style="fill:transparent;stroke:black"/>
+<rect x="2200" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2220" y="640.0" font-size="10" style="fill:plum">Faustino Fernández García</text>
+<rect x="2210" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2230" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2230" y="700.0" font-size="10" style="fill:rebeccapurple">1917-01-10</text>
+<text x="2230" y="710.0" font-size="10" style="fill:rebeccapurple">Villalobos, Zamora</text>
+<text x="2230" y="720.0" font-size="10" style="fill:rebeccapurple">-5.4747118042864535 </text><text x="2230" y="730.0" font-size="10" style="fill:rebeccapurple">41.947397252214984 </text><text x="2230" y="740.0" font-size="10" style="fill:rebeccapurple">722 </text>
+<text x="2230" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="2230" y="760.0" font-size="10" style="fill:rebeccapurple">1975-09-05</text>
+<text x="2230" y="770.0" font-size="10" style="fill:rebeccapurple">Gijón, Asturias</text>
+<text x="2230" y="780.0" font-size="10" style="fill:rebeccapurple">-5.607511687123249 </text><text x="2230" y="790.0" font-size="10" style="fill:rebeccapurple">43.52589336435242 </text><text x="2230" y="800.0" font-size="10" style="fill:rebeccapurple">61 </text>
+<text x="2230" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuelo_faustino.png</text>
+<text x="2230" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuelo por parte de abuelo por parte </text>
+<text x="2230" y="830.0" font-size="10" style="fill:rebeccapurple">de madre</text><path d="M2300.0 660 C2300.0 660 2300.0 670 2300.0 670" style="fill:transparent;stroke:black"/><path d="M2100.0 460 C1900.0 460 2100.0 620 1900.0 620" style="fill:transparent;stroke:black"/>
+<rect x="1800" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="1820" y="640.0" font-size="10" style="fill:plum">Clorinda Pastor San Lorenzo</text>
+<rect x="1810" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="1830" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="1830" y="700.0" font-size="10" style="fill:rebeccapurple">1916-03-05</text>
+<text x="1830" y="710.0" font-size="10" style="fill:rebeccapurple">Villalobos, Zamora</text>
+<text x="1830" y="720.0" font-size="10" style="fill:rebeccapurple">-5.473644537059647 </text><text x="1830" y="730.0" font-size="10" style="fill:rebeccapurple">41.94509313552526 </text><text x="1830" y="740.0" font-size="10" style="fill:rebeccapurple">733 </text>
+<text x="1830" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="1830" y="760.0" font-size="10" style="fill:rebeccapurple">2003-10-17</text>
+<text x="1830" y="770.0" font-size="10" style="fill:rebeccapurple">Madrid</text>
+<text x="1830" y="780.0" font-size="10" style="fill:rebeccapurple">-3.6872690561884567 </text><text x="1830" y="790.0" font-size="10" style="fill:rebeccapurple">40.481326490381385 </text><text x="1830" y="800.0" font-size="10" style="fill:rebeccapurple">728 </text>
+<text x="1830" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuela_clorinda.png</text>
+<text x="1830" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuela por parte de abuelo por parte </text>
+<text x="1830" y="830.0" font-size="10" style="fill:rebeccapurple">de madre</text><path d="M1900.0 660 C1900.0 660 1900.0 670 1900.0 670" style="fill:transparent;stroke:black"/><path d="M2400.0 260 C2700.0 260 2400.0 420 2700.0 420" style="fill:transparent;stroke:black"/>
+<rect x="2600" y="420" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2620" y="440.0" font-size="10" style="fill:plum">María del Rocío Aragón Aparicio</text>
+<rect x="2610" y="470" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2630" y="490.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2630" y="500.0" font-size="10" style="fill:rebeccapurple">1936-10-31</text>
+<text x="2630" y="510.0" font-size="10" style="fill:rebeccapurple">Valdunquillo de Campos, Valladolid</text>
+<text x="2630" y="520.0" font-size="10" style="fill:rebeccapurple">-5.313715446650053 </text><text x="2630" y="530.0" font-size="10" style="fill:rebeccapurple">42.042548484682314 </text><text x="2630" y="540.0" font-size="10" style="fill:rebeccapurple">740 </text>
+<text x="2630" y="550.0" font-size="10" style="fill:rebeccapurple">multimedia/abuela_rocio.png</text>
+<text x="2630" y="560.0" font-size="10" style="fill:rebeccapurple">Abuela por parte de madre</text><path d="M2700.0 460 C2700.0 460 2700.0 470 2700.0 470" style="fill:transparent;stroke:black"/><path d="M2700.0 460 C2900.0 460 2700.0 620 2900.0 620" style="fill:transparent;stroke:black"/>
+<rect x="2800" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2820" y="640.0" font-size="10" style="fill:plum">Gelasio Aragón Pastor</text>
+<rect x="2810" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2830" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2830" y="700.0" font-size="10" style="fill:rebeccapurple">1908-02-16</text>
+<text x="2830" y="710.0" font-size="10" style="fill:rebeccapurple">Valdunquillo de Campos, Valladolid</text>
+<text x="2830" y="720.0" font-size="10" style="fill:rebeccapurple">-5.311783858067096 </text><text x="2830" y="730.0" font-size="10" style="fill:rebeccapurple">42.041480555563595 </text><text x="2830" y="740.0" font-size="10" style="fill:rebeccapurple">740 </text>
+<text x="2830" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="2830" y="760.0" font-size="10" style="fill:rebeccapurple">2000-04-21</text>
+<text x="2830" y="770.0" font-size="10" style="fill:rebeccapurple">Valdunquillo de Campos, Valladolid</text>
+<text x="2830" y="780.0" font-size="10" style="fill:rebeccapurple">-5.314208420676102 </text><text x="2830" y="790.0" font-size="10" style="fill:rebeccapurple">42.04151825301395 </text><text x="2830" y="800.0" font-size="10" style="fill:rebeccapurple">740 </text>
+<text x="2830" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuelo_gelasio.png</text>
+<text x="2830" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuelo por parte de abuela por parte </text>
+<text x="2830" y="830.0" font-size="10" style="fill:rebeccapurple">de madre</text><path d="M2900.0 660 C2900.0 660 2900.0 670 2900.0 670" style="fill:transparent;stroke:black"/><path d="M2700.0 460 C2500.0 460 2700.0 620 2500.0 620" style="fill:transparent;stroke:black"/>
+<rect x="2400" y="620" width="200" height="40" style="fill:indigo;stroke:plum;stroke-width:1"/>
+<text x="2420" y="640.0" font-size="10" style="fill:plum">María Paz Aparicio San José</text>
+<rect x="2410" y="670" width="180" height="170" style="fill:transparent;stroke:rebeccapurple;stroke-width:1"/>
+<text x="2430" y="690.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Nacimiento: </text>
+<text x="2430" y="700.0" font-size="10" style="fill:rebeccapurple">1906-11-25</text>
+<text x="2430" y="710.0" font-size="10" style="fill:rebeccapurple">Valdunquillo de Campos, Valladolid</text>
+<text x="2430" y="720.0" font-size="10" style="fill:rebeccapurple">-5.310788873185057 </text><text x="2430" y="730.0" font-size="10" style="fill:rebeccapurple">42.040457528893455 </text><text x="2430" y="740.0" font-size="10" style="fill:rebeccapurple">743 </text>
+<text x="2430" y="750.0" font-size="10" font-weight="bold" style="fill:rebeccapurple">Fallecimiento: </text>
+<text x="2430" y="760.0" font-size="10" style="fill:rebeccapurple">1986-06-14</text>
+<text x="2430" y="770.0" font-size="10" style="fill:rebeccapurple">Valdunquillo de Campos, Valladolid</text>
+<text x="2430" y="780.0" font-size="10" style="fill:rebeccapurple">-5.314208420676102 </text><text x="2430" y="790.0" font-size="10" style="fill:rebeccapurple">42.04151825301395 </text><text x="2430" y="800.0" font-size="10" style="fill:rebeccapurple">740 </text>
+<text x="2430" y="810.0" font-size="10" style="fill:rebeccapurple">multimedia/bisabuela_paz.png</text>
+<text x="2430" y="820.0" font-size="10" style="fill:rebeccapurple">Bisabuela por parte de abuela por parte </text>
+<text x="2430" y="830.0" font-size="10" style="fill:rebeccapurple">de madre</text><path d="M2500.0 660 C2500.0 660 2500.0 670 2500.0 670" style="fill:transparent;stroke:black"/></svg>

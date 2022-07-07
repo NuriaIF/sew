@@ -1,0 +1,40 @@
+XAMPP => http://localhost/
+C://xampp/httdocs
+	ej1 -> html, css, js => loxalhost/ej1/----.html
+	
+Herramientas de desarrollador del navegador, tenemos una consola, acceder a los ficheros fuente
+Punto de ruptura en el js
+Imprimir por consola para saber qué hace el código->MAL. Usar depurador.
+
+Calculadora con la misma interfaz
+3 funciones que trabajan con la memoria
+m+ coge valor de memoria y le suma lo que hay en la pantalla
+m- = memoria-pantalla
+mrc coge valor de la memoria y lo pone como valor en pantalla
+
+m+ y m- almacenan resultado en la memoria
+muestro resultado y lo almaceno en memoria
+
+para escribir en pantalla usar ratón o con eventos del teclado de los numeros y las operaciones
+
+
+Pulso numeros y luego +, creo objeto Number, y desde el + al = creo otro. Se lo pasamos al método eval
+Pantalla no editable pero a la vez un control que se pueda escribir
+
+Ejercicio4
+CalculadoraCientifica hereda de CalculadoraBasica
+Primer paso) copiar codigo de la calculadora basica a la carpeta del ejercicio 4
+Llamadas al objeto predefinido math
+
+La calculadora es un grid con 5 columnas, pantalla ocupa 2xfilas, 5 botones repartidos horizontalmente
+gridbyexample.com
+
+No usar object ni embed
+
+<h1><script..../></h1> nuestro fuente, al subirlo al validador devuelve error porque se salta etiquetas script, 
+h1 vacío y h1 vacío no valida, boton derecho, inspeccionar codigo,boton derecho, copiar elemento, añadir DOCTYPE
+Validar codigo reanderizado en pantalla.
+<h1>SEW</h1>
+
+No validan elemntos con id duplicados (para jQuery)
+Si hago extraccion + de 2 veces tengo id duplicado en mi html

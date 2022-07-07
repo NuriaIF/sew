@@ -1,0 +1,65 @@
+*{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+main {
+    background-color:black;
+    width: 15em;
+    height: 17.5em;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 5em;
+
+}
+/*main>textarea {
+    resize: none;
+    width: 15.5em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background-color: #C0EAB3;
+}*/
+
+main > form {
+    display: grid;
+    grid-template-columns: 2.5em 2.5em 2.5em 2.5em;
+    grid-template-rows:1.6em 1.6em 1.6em 1.6em 1.6em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-left: 1em;
+    background-color: black;
+    border-radius: 5%;
+}
+input[type=textarea] {
+    resize: none;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #C0EAB3;
+    height: 2em;
+    margin-top: 1.5em;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+input[type=button] {
+    border-radius: 20%;
+    background-color: gray;
+    color: white;
+}
+/*main>section>button {
+    border-radius: 20%;
+    background-color: gray;
+    color: white;
+}*/
+input[type=button]:nth-child(4n+1) {
+    background-color: red;
+}
+input[type=button]:nth-child(21) {
+    background-color: lightgray;
+}

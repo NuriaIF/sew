@@ -1,0 +1,53 @@
+Color que falta que se está heredando, hay un color de primer plano y no
+un color de fondo, pero el color de fondo lo hereda de body.
+Solucionar estas advertencias implicaría que tenemos que poner color y
+background color de forma explícita arriba pero eso incrementaría el
+contenido de las hojas de estilo
+Poner /*hereda de body backgroundcolor: #fff */
+Adevertencia permitida (importante documentar en el informe)
+
+Si esos colores se aplican a un texto normal...
+
+Flujo normal: los contenidos sin hoja de estilo se representan
+como los ves en el html, no implica esquema de posicionamiento
+
+Flujos absoluto, relativo y flotante desaconsejados
+
+FLEXBOX y GRID se basan en un concepto muy importante, en el concepto de
+que tenemos que tener un contenedor de elementos, a través de la propiedad display
+displayFlex es unidireccional, solamente en una direccion
+GRID es bidireccional
+
+No multicolumna
+
+En funcion del esquema que le apliquemos a display
+
+Me dice que pertenece a CSS3 y si le doy a CR me dice el módulo donde
+está la propiedad y puedo acceder a la propiedad en concreto.
+
+MDN: tutoriales de CSS
+W3schools: no tiene nada que ver con W3C -> prácticas antiguas que no son
+como se tienen que hacer ahora las cosas.
+Consideran lo de las esquinas redondeadas como CSS avanzado, la única 
+manera de hacerlo antes era mediante imágenes (5), las esquinas y el
+rectángulo central.
+Ahora es fácil porque hay un módulo que es el border-radius
+
+div, pixeles son antiguos
+
+displayflex, displaygrid, em, wh estamos en el momento actual
+
+Elementos->Mostrar todos->Agrupados
+
+No hacemos refactorizacion de hojas de estilos
+
+Al lado del layout algo descriptivo de para lo que es el layout: tabla de 3x3
+tablas.css y solo se lo aplicamos a los documentos que tengan tablas.
+IMPORTANTE: al crear los enlaces de los recursos de las hojas de estilo
+no poner @import, los enlazamos como un recurso en el head de los documentos html
+
+Una hoja de estilo, otra del layout, y otra de la tabla
+
+
+
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+
+
+<Placemark><name>Nuria Inchaurrandieta Fernández</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.647731114109561,43.53527084736443,5</coordinates></Point></Placemark>
+
+
+<Placemark><name>Roberto Inchaurrandieta Granda</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.112974715606762,43.48615050039599,59</coordinates></Point></Placemark>
+
+
+<Placemark><name>Luciano Inchaurrandieta Pérez</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	0.8121072331378797,42.369490391361744,1234</coordinates></Point></Placemark>
+<Placemark><name>Luciano Inchaurrandieta Pérez</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-5.92714800211595,43.55452206422115,21</coordinates></Point></Placemark>
+
+
+<Placemark><name>Juan Bautista Inchaurrandieta Zumarraga</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.105562702215373,43.543443469226325,131</coordinates></Point></Placemark>
+<Placemark><name>Juan Bautista Inchaurrandieta Zumarraga</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-6.071216075733286,43.5327410987212,61</coordinates></Point></Placemark>
+
+
+<Placemark><name>María Pérez Gómez</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.117188853029939,43.546583727625325,126</coordinates></Point></Placemark>
+<Placemark><name>María Pérez Gómez</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-6.115056099849746,43.54462513987004,136</coordinates></Point></Placemark>
+
+
+<Placemark><name>María Luisa Granda Valdés</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.105562702215373,43.543443469226325,131</coordinates></Point></Placemark>
+
+
+<Placemark><name>Juan Salvador Granda Arango</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.104488616888746,43.54392395787351,129</coordinates></Point></Placemark>
+<Placemark><name>Juan Salvador Granda Arango</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-6.105338597679843,43.542968196793865,131</coordinates></Point></Placemark>
+
+
+<Placemark><name>Alicia Claudia Valdés Grande</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-6.103439310272827,43.5420252216079,114</coordinates></Point></Placemark>
+<Placemark><name>Alicia Claudia Valdés Grande</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-6.104444111702224,43.542848205718656,130</coordinates></Point></Placemark>
+
+
+<Placemark><name>María del Rocío Fernández Aragón</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.607511687123249,43.52589336435242,61</coordinates></Point></Placemark>
+
+
+<Placemark><name>Baltasar Fernández Pastor</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.4759527238233625,41.94602846067811,724</coordinates></Point></Placemark>
+
+
+<Placemark><name>Faustino Fernández García</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.4747118042864535,41.947397252214984,722</coordinates></Point></Placemark>
+<Placemark><name>Faustino Fernández García</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-5.607511687123249,43.52589336435242,61</coordinates></Point></Placemark>
+
+
+<Placemark><name>Clorinda Pastor San Lorenzo</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.473644537059647,41.94509313552526,733</coordinates></Point></Placemark>
+<Placemark><name>Clorinda Pastor San Lorenzo</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-3.6872690561884567,40.481326490381385,728</coordinates></Point></Placemark>
+
+
+<Placemark><name>María del Rocío Aragón Aparicio</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.313715446650053,42.042548484682314,740</coordinates></Point></Placemark>
+
+
+<Placemark><name>Gelasio Aragón Pastor</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.311783858067096,42.041480555563595,740</coordinates></Point></Placemark>
+<Placemark><name>Gelasio Aragón Pastor</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-5.314208420676102,42.04151825301395,740</coordinates></Point></Placemark>
+
+
+<Placemark><name>María Paz Aparicio San José</name><description>Nacimiento</description>
+<Style><IconStyle>
+<color>FF00FF14</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>
+	-5.310788873185057,42.040457528893455,743</coordinates></Point></Placemark>
+<Placemark><name>María Paz Aparicio San José</name><description>Fallecimiento</description>
+<Style><IconStyle>
+<color>FF1400FF</color>
+<scale>1.4</scale>
+</IconStyle></Style><Point><coordinates>-5.314208420676102,42.04151825301395,740</coordinates></Point></Placemark>
+
+
+</Document>
+</kml>

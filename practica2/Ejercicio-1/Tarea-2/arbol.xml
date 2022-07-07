@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<personas>
+<persona nombre ="Nuria" apellidos="Inchaurrandieta Fernández">
+<datos>
+	<fechaNacimiento>2001-05-04</fechaNacimiento>
+	<lugarNacimiento>Gijón, Asturias</lugarNacimiento>
+	<coordsNacimiento>
+		<longitud>-5.647731114109561</longitud>
+		<latitud>43.53527084736443</latitud>
+		<altitud>5</altitud>
+	</coordsNacimiento>
+	<foto>multimedia/nuria.png</foto>
+	<video>multimedia/nuria_video.mp4</video>
+	<comentario>Estudiante de Ingeniería Informática del Software</comentario>
+</datos>
+<persona nombre ="Roberto" apellidos="Inchaurrandieta Granda">
+	<datos>
+		<fechaNacimiento>1971-07-26</fechaNacimiento>
+		<lugarNacimiento>Pravia, Asturias</lugarNacimiento>
+		<coordsNacimiento>
+			<longitud>-6.112974715606762</longitud>
+			<latitud>43.48615050039599</latitud>
+			<altitud>59</altitud>
+		</coordsNacimiento>
+		<foto>multimedia/padre.png</foto>
+		<comentario>Padre</comentario>
+	</datos>
+	<persona nombre ="Luciano" apellidos="Inchaurrandieta Pérez">
+		<datos>
+			<fechaNacimiento>1940-05-18</fechaNacimiento>
+			<lugarNacimiento>Viu de Llevata, Lleida</lugarNacimiento>
+			<coordsNacimiento>
+				<longitud>0.8121072331378797</longitud>
+				<latitud>42.369490391361744</latitud>
+				<altitud>1234</altitud>
+			</coordsNacimiento>
+			<fechaFallecimiento>2003-09-04</fechaFallecimiento>
+			<lugarFallecimiento>Avilés, Asturias</lugarFallecimiento>
+			<coordsFallecimiento> 
+				<longitud>-5.92714800211595</longitud>
+				<latitud>43.55452206422115</latitud>
+				<altitud>21</altitud>
+			</coordsFallecimiento>
+			<foto>multimedia/abuelo_luciano.png</foto>
+			<comentario>Abuelo por parte de padre</comentario>
+		</datos>
+		<persona nombre ="Juan Bautista" apellidos="Inchaurrandieta Zumarraga">
+			<datos>
+				<fechaNacimiento>1906-07-03</fechaNacimiento>
+				<lugarNacimiento>Muros de Nalón, Asturias</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-6.105562702215373</longitud>
+					<latitud>43.543443469226325</latitud>
+					<altitud>131</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1992-05-22</fechaFallecimiento>
+				<lugarFallecimiento>Soto del Barco, Asturias</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-6.071216075733286</longitud>
+					<latitud>43.5327410987212</latitud>
+					<altitud>61</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuelo_juanbautista.png</foto>
+				<comentario>Bisabuelo por parte de abuelo por parte de padre</comentario>
+			</datos>
+		</persona>
+		<persona nombre ="María" apellidos="Pérez Gómez">
+			<datos>
+				<fechaNacimiento>1905-06-14</fechaNacimiento>
+				<lugarNacimiento>Muros de Nalón, Asturias</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-6.117188853029939</longitud>
+					<latitud>43.546583727625325</latitud>
+					<altitud>126</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1971-05-12</fechaFallecimiento>
+				<lugarFallecimiento>Muros de Nalón, Asturias</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-6.115056099849746</longitud>
+					<latitud>43.54462513987004</latitud>
+					<altitud>136</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuela_maria.png</foto>
+				<comentario>Bisabuela por parte de abuelo por parte de padre</comentario>
+			</datos>
+		</persona>
+	</persona>
+	<persona nombre ="María Luisa" apellidos="Granda Valdés">
+		<datos>
+			<fechaNacimiento>1942-08-10</fechaNacimiento>
+			<lugarNacimiento>Muros de Nalón, Asturias</lugarNacimiento>
+			<coordsNacimiento>
+				<longitud>-6.105562702215373</longitud>
+				<latitud>43.543443469226325</latitud>
+				<altitud>131</altitud>
+			</coordsNacimiento>
+			<foto>multimedia/abuela_luisa.png</foto>
+			<comentario>Abuela por parte de padre</comentario>
+		</datos>
+		<persona nombre ="Juan Salvador" apellidos="Granda Arango">
+			<datos>
+				<fechaNacimiento>1905-04-19</fechaNacimiento>
+				<lugarNacimiento>Muros de Nalón, Asturias</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-6.104488616888746</longitud>
+					<latitud>43.54392395787351</latitud>
+					<altitud>129</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1975-10-05</fechaFallecimiento>
+				<lugarFallecimiento>Muros de Nalón, Asturias</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-6.105338597679843</longitud>
+					<latitud>43.542968196793865</latitud>
+					<altitud>131</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuelo_juansalvador.png</foto>
+				<comentario>Bisabuelo por parte de abuela por parte de padre</comentario>
+			</datos>
+		</persona>
+		<persona nombre ="Alicia Claudia" apellidos="Valdés Grande">
+			<datos>
+				<fechaNacimiento>1905-06-07</fechaNacimiento>
+				<lugarNacimiento>Muros de Nalón, Asturias</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-6.103439310272827</longitud>
+					<latitud>43.5420252216079</latitud>
+					<altitud>114</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1994-03-20</fechaFallecimiento>
+				<lugarFallecimiento>Muros de Nalón, Asturias</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-6.104444111702224</longitud>
+					<latitud>43.542848205718656</latitud>
+					<altitud>130</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuela_alicia.png</foto>
+				<comentario>Bisabuela por parte de abuela por parte de padre</comentario>
+			</datos>
+		</persona>
+	</persona>
+</persona>
+<persona nombre ="María del Rocío" apellidos="Fernández Aragón">
+	<datos>
+		<fechaNacimiento>1971-01-29</fechaNacimiento>
+		<lugarNacimiento>Gijón, Asturias</lugarNacimiento>
+		<coordsNacimiento>
+			<longitud>-5.607511687123249</longitud>
+			<latitud>43.52589336435242</latitud>
+			<altitud>61</altitud>
+		</coordsNacimiento>
+		<foto>multimedia/madre.png</foto>
+		<comentario>Madre</comentario>
+	</datos>
+	<persona nombre ="Baltasar" apellidos="Fernández Pastor">
+		<datos>
+			<fechaNacimiento>1937-02-22</fechaNacimiento>
+			<lugarNacimiento>Villalobos, Zamora</lugarNacimiento>
+			<coordsNacimiento>
+				<longitud>-5.4759527238233625</longitud>
+				<latitud>41.94602846067811</latitud>
+				<altitud>724</altitud>
+			</coordsNacimiento>
+			<foto>multimedia/abuelo_baltasar.png</foto>
+			<comentario>Abuelo por parte de madre</comentario>
+		</datos>
+		<persona nombre ="Faustino" apellidos="Fernández García">
+			<datos>
+				<fechaNacimiento>1917-01-10</fechaNacimiento>
+				<lugarNacimiento>Villalobos, Zamora</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-5.4747118042864535</longitud>
+					<latitud>41.947397252214984</latitud>
+					<altitud>722</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1975-09-05</fechaFallecimiento>
+				<lugarFallecimiento>Gijón, Asturias</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-5.607511687123249</longitud>
+					<latitud>43.52589336435242</latitud>
+					<altitud>61</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuelo_faustino.png</foto>
+				<comentario>Bisabuelo por parte de abuelo por parte de madre</comentario>
+			</datos>
+		</persona>
+		<persona nombre ="Clorinda" apellidos="Pastor San Lorenzo">
+			<datos>
+				<fechaNacimiento>1916-03-05</fechaNacimiento>
+				<lugarNacimiento>Villalobos, Zamora</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-5.473644537059647</longitud>
+					<latitud>41.94509313552526</latitud>
+					<altitud>733</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>2003-10-17</fechaFallecimiento>
+				<lugarFallecimiento>Madrid</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-3.6872690561884567</longitud>
+					<latitud>40.481326490381385</latitud>
+					<altitud>728</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuela_clorinda.png</foto>
+				<comentario>Bisabuela por parte de abuelo por parte de madre</comentario>
+			</datos>
+		</persona>
+	</persona>
+	<persona nombre ="María del Rocío" apellidos="Aragón Aparicio">
+		<datos>
+			<fechaNacimiento>1936-10-31</fechaNacimiento>
+			<lugarNacimiento>Valdunquillo de Campos, Valladolid</lugarNacimiento>
+			<coordsNacimiento>
+				<longitud>-5.313715446650053</longitud>
+				<latitud>42.042548484682314</latitud>
+				<altitud>740</altitud>
+			</coordsNacimiento>
+			<foto>multimedia/abuela_rocio.png</foto>
+			<comentario>Abuela por parte de madre</comentario>
+		</datos>
+		<persona nombre ="Gelasio" apellidos="Aragón Pastor">
+			<datos>
+				<fechaNacimiento>1908-02-16</fechaNacimiento>
+				<lugarNacimiento>Valdunquillo de Campos, Valladolid</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-5.311783858067096</longitud>
+					<latitud>42.041480555563595</latitud>
+					<altitud>740</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>2000-04-21</fechaFallecimiento>
+				<lugarFallecimiento>Valdunquillo de Campos, Valladolid</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-5.314208420676102</longitud>
+					<latitud>42.04151825301395</latitud>
+					<altitud>740</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuelo_gelasio.png</foto>
+				<comentario>Bisabuelo por parte de abuela por parte de madre</comentario>
+			</datos>
+		</persona>
+		<persona nombre ="María Paz" apellidos="Aparicio San José">
+			<datos>
+				<fechaNacimiento>1906-11-25</fechaNacimiento>
+				<lugarNacimiento>Valdunquillo de Campos, Valladolid</lugarNacimiento>
+				<coordsNacimiento>
+					<longitud>-5.310788873185057</longitud>
+					<latitud>42.040457528893455</latitud>
+					<altitud>743</altitud>
+				</coordsNacimiento>
+				<fechaFallecimiento>1986-06-14</fechaFallecimiento>
+				<lugarFallecimiento>Valdunquillo de Campos, Valladolid</lugarFallecimiento>
+				<coordsFallecimiento>
+					<longitud>-5.314208420676102</longitud>
+					<latitud>42.04151825301395</latitud>
+					<altitud>740</altitud>
+				</coordsFallecimiento>
+				<foto>multimedia/bisabuela_paz.png</foto>
+				<comentario>Bisabuela por parte de abuela por parte de madre</comentario>
+			</datos>
+		</persona>
+	</persona>
+</persona>
+
+</persona>
+</personas>

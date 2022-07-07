@@ -1,0 +1,11 @@
+<Window x:Class="ContentPropertySample.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title = "MainWindow" Height="400" Width="500" >
+<Grid x:Name="ParentGrid">
+    <Button Height="50" Margin="10,10,350,310" Content="Hello XAML" />
+    <Button Height="80" Margin="10,80,300,170">
+        <Rectangle Height="60" Width="120" Fill="Green"></Rectangle>
+    </Button>
+</Grid>
+</Window>

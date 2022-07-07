@@ -1,0 +1,52 @@
+/**ESPECIFICIDAD: (0, 0, 1) **/
+body{
+  color: bisque;
+  background-color: indigo;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+header{
+  
+  font-size:3em;
+  text-align: center;
+  color: indigo;
+  background-color: plum;
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+img{
+  width:10em;
+  border: lavenderblush solid 0.3em;
+  border-radius: 1em;
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+video{
+  width: 10em;
+  border: lavenderblush solid 0.3em;
+  border-radius: 1em;
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+ul{
+  border-top:lavenderblush solid 0.3em;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 1em;
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+li{
+  border:mistyrose dashed 0.1em;
+  padding: 0.3em;
+  border-radius: 1em;
+}
+/**ESPECIFICIDAD: (0, 0, 1) **/
+footer{
+  background-color: rebeccapurple;
+  color: blanchedalmond;
+  border:plum solid 0.5em;
+  border-radius: 1em;
+  padding: 1em;
+}
+/**ESPECIFICIDAD: (0, 0, 3) **/
+footer address a{
+  color:lavender;
+  font-weight: bold;
+}
