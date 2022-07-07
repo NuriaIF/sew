@@ -5,6 +5,7 @@ dl {
   border: 0.5em solid #F0DB4F;
   border-radius: 2em;
   background-color: #F0DB4F;
+  padding: 2em;
 }
 /*Especificidad: 001*/
 dt {
