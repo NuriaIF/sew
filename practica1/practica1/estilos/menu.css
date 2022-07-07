@@ -2,8 +2,8 @@
 nav {
   z-index: 1;
   position:absolute;
-  margin-top: 4em;
-  width:100%;
+  margin-top: 8em;
+  width: 100%;
 }
 /*Especificidad: 002*/
 nav>ul{
@@ -16,9 +16,10 @@ nav>ul li>a,nav>ul li>p{
     padding: 10px;
     display: block;
     text-decoration: none;
-    min-width: 100px;
+    min-width: 315px;
     font-weight: bold;
 }
+
 /*Especificidad: 014*/
 nav>ul li>a:hover{
     color: #F0DB4F;
