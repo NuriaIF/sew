@@ -5,13 +5,13 @@ dl {
   border: 0.5em solid #F0DB4F;
   border-radius: 2em;
   background-color: #F0DB4F;
-  width:100%;
 }
 /*Especificidad: 001*/
 dt {
   grid-column-start: 1;
-  padding-right: 1em;
+  padding-right: 2em;
   font-weight: bold;
+  width: 6em;
 }
 /*Especificidad: 001*/
 dd {
