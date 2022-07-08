@@ -76,34 +76,42 @@ def generarLista(raiz):
     tab="\n"
 
     string=generarHijos(raiz,tab)
-    string+='''\n\t\t</ul>'''
+    string+='''\n\t\t'''
     
     return string
 
 
 def generarHijos(raiz,tab):
     tab+="\t\t"
-    string=tab+'''<ul> '''
+    string=tab+'''\n '''
 
     # Recorrido de los elementos del árbol
     for hijo in raiz:
-        sTag = tab+'''\t<li>'''+hijo.tag.replace("{http://tempuri.org/arbol}","")
+        sTag = tab+'''\t'''+hijo.tag.replace("{http://tempuri.org/arbol}","")+""
         
         if hijo.text != None:
             tag = hijo.tag.replace("{http://tempuri.org/arbol}","")
-            if (tag == 'foto'):
-                string+=tab+'''\t<li><img src="'''+hijo.text+'''" alt="'''+hijo.text+'''" />'''
+            if (tag == 'persona'):
+                string+="\t\t<section><header>"
+            elif (tag == 'foto'):
+                string+=tab+'''\t<img src="'''+hijo.text+'''" alt="'''+hijo.text+'''" />'''
             elif (tag=='video'):
-                string+=tab+'''\t<li><video src="'''+hijo.text+'''" controls preload="auto"></video>'''
+                string+=tab+'''\t<video src="'''+hijo.text+'''" controls preload="auto"></video>'''
             else:
+                if (tag=='datos'):
+                    string+="\t\t<section>"
                 string+=sTag+": "+hijo.text.strip('\n')
         else:
             string+=hijo.text
         
+        
         string+=str(hijo.attrib).replace("{}","").replace("{'nombre': '","").replace("', 'apellidos': '"," ").replace("'}","")
+        if (tag == 'persona'):
+            string+="</header>"
         if len(hijo) > 0:            
-            string+=generarHijos(hijo,tab)+tab+'''\t\t</ul>'''
-        string+='''</li>'''
+            string+=generarHijos(hijo,tab)+tab+'''\t\t'''
+        if (tag == 'persona' or tag=='datos'):
+            string+="\t</section>\n"
 
     return string
 
@@ -112,7 +120,7 @@ def generarHijos(raiz,tab):
 
 def main():
     """Prueba de la función verXML()"""
-        
+    
     miArchivoXML = input('Introduzca un archivo XML = ')
     
     verXML(miArchivoXML)
