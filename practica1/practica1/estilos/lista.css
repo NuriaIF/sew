@@ -9,8 +9,3 @@ main ul li {
   padding-bottom:0.5em;
   text-align: center;
 }
-/*Especificidad: 001*/
-img{
-  position:absolute;
-  opacity:0.4;
-}
