@@ -13,10 +13,10 @@ nav>ul{
 nav>ul li>a,nav>ul li>p{
     background-color: #332F2C;
     color: white;
-    padding: 10px;
+    padding: 0.6em;
     display: block;
     text-decoration: none;
-    min-width: 315px;
+    min-width: 20em;
     font-weight: bold;
 }
 
