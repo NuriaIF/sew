@@ -83,24 +83,32 @@ def generarLista(raiz):
 
 def generarHijos(raiz,tab):
     tab+="\t\t"
-    string=tab+'''\n '''
+    string=tab+''' '''
 
     # Recorrido de los elementos del árbol
     for hijo in raiz:
-        sTag = tab+'''\t'''+hijo.tag.replace("{http://tempuri.org/arbol}","")+""
-        
+        sTag = tab+'''\t'''+hijo.tag.replace("{http://tempuri.org/arbol}","")
+        final =""
         if hijo.text != None:
             tag = hijo.tag.replace("{http://tempuri.org/arbol}","")
+            
             if (tag == 'persona'):
+                sTag = sTag.replace("persona","")
                 string+="\t\t<section><header>"
-            elif (tag == 'foto'):
+            else:
+                string+="<p>"
+                final="</p>"
+                
+            if (tag == 'foto'):
                 string+=tab+'''\t<img src="'''+hijo.text+'''" alt="'''+hijo.text+'''" />'''
             elif (tag=='video'):
                 string+=tab+'''\t<video src="'''+hijo.text+'''" controls preload="auto"></video>'''
             else:
                 if (tag=='datos'):
-                    string+="\t\t<section>"
-                string+=sTag+": "+hijo.text.strip('\n')
+                    string+="\t\t\t<section>"
+                elif(tag!='persona'):
+                    string+=sTag+": "+hijo.text.strip('\n')
+            string+=final
         else:
             string+=hijo.text
         
@@ -109,9 +117,9 @@ def generarHijos(raiz,tab):
         if (tag == 'persona'):
             string+="</header>"
         if len(hijo) > 0:            
-            string+=generarHijos(hijo,tab)+tab+'''\t\t'''
+            string+=generarHijos(hijo,tab)+tab
         if (tag == 'persona' or tag=='datos'):
-            string+="\t</section>\n"
+            string+="</section>\n"
 
     return string
 
