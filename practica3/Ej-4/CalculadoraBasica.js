@@ -114,9 +114,9 @@ class Calculadora {
         }
         
         this.memory=""+result
-        this.screen=""
+        this.screen=""+result
         this.num1=""
-        this.num2=""
+        this.num2=""+result
         calculadora.escribir(""+result)
 
     }
