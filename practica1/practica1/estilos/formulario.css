@@ -33,6 +33,7 @@ fieldset{
 textarea{
     resize: none;
 }
+/*Especificidad: 001*/
 form{
     width:100%;
 }
