@@ -13,14 +13,14 @@ class CalculadoraCientifica extends Calculadora {
     openPar(){
         this.screen=this.screen+"("
         this.openedPars++
-        escribir( this.screen )
+        calculadora.escribir( this.screen )
         
     }
     closePar(){
         if (this.openedPars > 0) {
             this.screen=this.screen+")"
             this.openedPars--
-            escribir( this.screen )
+            calculadora.escribir( this.screen )
         }
         
     }
@@ -42,7 +42,7 @@ class CalculadoraCientifica extends Calculadora {
             try {
                 result= eval(this.formatForEval(document.getElementsByTagName("input")[0].value))
             }catch(err){
-                escribir("Error: "+err)
+                calculadora.escribir("Error: "+err)
                 return "Error: "+err
             }
         } else {
@@ -60,7 +60,7 @@ class CalculadoraCientifica extends Calculadora {
                         result = Math.pow(eval(this.formatForEval(base)),eval(this.formatForEval(exponente)))
                         base = result.toString()
                     }catch(err){
-                        escribir( "Error: "+err )
+                        calculadora.escribir( "Error: "+err )
                         return "Error: "+err
                     }
                 }
@@ -89,7 +89,7 @@ class CalculadoraCientifica extends Calculadora {
                     result= eval(this.formatForEval(this.screen))
                     console.log("Resultado:"+result)
                 }catch(err){
-                    escribir( "Error: "+err )
+                    calculadora.escribir( "Error: "+err )
                     return "Error: "+err
                 }
             }
@@ -111,22 +111,22 @@ class CalculadoraCientifica extends Calculadora {
         if (result=="undefined")
             result="Error"
         console.log(result)
-        escribir( ""+result )
+        calculadora.escribir( ""+result )
         return result
     }
     pi(){
         this.screen=this.screen+'\u03C0'
-        escribir( this.screen )
+        calculadora.escribir( this.screen )
     }
     e(){
         this.screen+="e"
-        escribir( this.screen )
+        calculadora.escribir( this.screen )
     }
 
     borrarUnNumero(){
         this.mrcOnce = false
         this.screen=this.screen.substring(0,this.screen.length-1)
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     negate(){
@@ -138,7 +138,7 @@ class CalculadoraCientifica extends Calculadora {
         } else {
             this.screen = '-' +this.screen
         }
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     mod(){
@@ -147,7 +147,7 @@ class CalculadoraCientifica extends Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     fact(){
@@ -158,14 +158,14 @@ class CalculadoraCientifica extends Calculadora {
 	    for (var i=1; i<=result; i++) {
 		    total = total * i; 
 	    }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     log(){
         var result = this.igual()
 
 	    var total = Math.log10(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     logxy(){
@@ -174,21 +174,21 @@ class CalculadoraCientifica extends Calculadora {
         this.screen = "log"+this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     ln(){
         var result = this.igual()
 
 	    var total = Math.log(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     ex(){
         var result = this.igual()
 
 	    var total = Math.exp(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     exp(){
@@ -202,23 +202,23 @@ class CalculadoraCientifica extends Calculadora {
         var result = this.igual()
 
 	    var total = Math.abs(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     floor(){//Devuelve entero más grande <= x
         var result = this.igual()
 
 	    var total = Math.floor(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     ceil(){
         var result = this.igual()
 
 	    var total = Math.ceil(result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     rand(){
         var random = Math.random()
-        escribir(random)
+        calculadora.escribir(random)
     }
     dms(){
         //Pasa de degrees a dms
@@ -232,7 +232,7 @@ class CalculadoraCientifica extends Calculadora {
         var seconds = m.split('.')[1]*60
 
         var total = degrees+'.'+minutes+seconds
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     degrees(){
         //Pasa de dms a degrees
@@ -247,35 +247,35 @@ class CalculadoraCientifica extends Calculadora {
 
         var total = parteEntera+'.'+parteDecimal
         
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     inverse(){
         var result = this.igual()
 
 	    var total = 1/result
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     powerTwoOf(){
         var result = this.igual()
 
 	    var total = Math.pow(result,2)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     powerThreeOf(){
         var result = this.igual()
 
 	    var total = Math.pow(result,3)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     root(n){
         var result = this.igual()
 
 	    var total = Math.sqrt(result,n)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     XtoTheY(){
@@ -284,7 +284,7 @@ class CalculadoraCientifica extends Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     YrootX(){
@@ -293,21 +293,21 @@ class CalculadoraCientifica extends Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
 
     tenToThePower(){
         var result = this.igual()
 
 	    var total = Math.pow(10,result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     twoToThePower(){
         var result = this.igual()
 
 	    var total = Math.pow(2,result)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
 
     DEG(){
@@ -340,21 +340,21 @@ class CalculadoraCientifica extends Calculadora {
                 break;
 	        
         }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     sinh(){
         var result = this.igual()
         var total = Math.sinh(result)
          
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     sinInverse(){
         var result = this.igual()
         var total = Math.asin(result)
         
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
         
     }
@@ -362,7 +362,7 @@ class CalculadoraCientifica extends Calculadora {
         var result = this.igual()
         var total = Math.asinh(result) 
                
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     cos(){
@@ -380,28 +380,28 @@ class CalculadoraCientifica extends Calculadora {
                 break;
 	        
         }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     cosh(){
         var result = this.igual()
         var total = Math.cosh(result) //en radianes
               
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     cosInverse(){
         var result = this.igual()
         var total = Math.acos(result)
                 
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     coshInverse(){
         var result = this.igual()
         var total = Math.acosh(result) //en radianes
         console.log(total)
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     tan(){
@@ -419,37 +419,37 @@ class CalculadoraCientifica extends Calculadora {
                 break;
 	        
         }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     tanh(){
         var result = this.igual()
         var total = Math.tanh(result) 
         
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     tanInverse(){
         var result = this.igual()
         var total = Math.atan(result)
         
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     tanhInverse(){
         var result = this.igual()
         var total = Math.atanh(result) //en radianes
         
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
         return total
     }
     sec(){
         var total = 1/this.cos()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     sech(){
         var total = 1/this.cosh()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     secInverse(){ 
         this.screen = 1.0/this.screen
@@ -467,21 +467,21 @@ class CalculadoraCientifica extends Calculadora {
 	        
         }
 
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     sechInverse(){
         this.screen = 1.0/this.screen
         var total = this.coshInverse()
 
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     csc(){
         var total = 1/this.sin()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     csch(){
         var total = 1/this.sinh()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     cscInverse(){
         this.screen = 1.0/this.screen
@@ -499,21 +499,21 @@ class CalculadoraCientifica extends Calculadora {
                 break;
 	        
         }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     cschInverse(){
         this.screen = 1.0/this.screen
         var total = this.sinhInverse()
 
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     cot(){
         var total = 1/this.tan()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     coth(){
         var total = 1/this.tanh()
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     cotInverse(){
         this.screen = 1.0/this.screen
@@ -531,13 +531,13 @@ class CalculadoraCientifica extends Calculadora {
                 break;
 	        
         }
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     cothInverse(){
         this.screen = 1.0/this.screen
         var total = this.tanhInverse()
 
-        escribir( ""+total )
+        calculadora.escribir( ""+total )
     }
     
 
@@ -726,7 +726,7 @@ class CalculadoraCientifica extends Calculadora {
     }
     MR(){
         this.screen = this.memory
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     MS(){
         this.memory = this.screen

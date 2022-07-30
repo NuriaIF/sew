@@ -86,7 +86,7 @@ class CalculadoraRPN {
         this.screen=""
     }
 
-    escribir(content){
+    calculadora.escribir(content){
         document.getElementsByTagName("ul")[0].innerHTML = "<li>1: "+content+"</li>"
 
         this.drawStack(this.stack.length+2)

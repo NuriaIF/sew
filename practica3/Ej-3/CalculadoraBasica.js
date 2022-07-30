@@ -15,7 +15,7 @@ class Calculadora {
         this.num2=this.num2.concat(digit)
         this.screen=this.screen.concat(digit)
         
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     punto() {
         this.mrcOnce = false
@@ -31,7 +31,7 @@ class Calculadora {
             this.num1="."
             this.screen=this.screen.concat(this.num1)
         }
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     suma() {
         this.mrcOnce = false
@@ -39,7 +39,7 @@ class Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     resta() {
         this.mrcOnce = false
@@ -47,7 +47,7 @@ class Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     multiplicacion() {
         this.mrcOnce = false
@@ -55,7 +55,7 @@ class Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     division() {
         this.mrcOnce = false
@@ -63,19 +63,19 @@ class Calculadora {
         this.screen=this.screen.concat(this.operacion)
         this.num1=this.num2
         this.num2=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     mrc() {
         if (this.mrcOnce == true){
             borrar()
-            escribir(this.screen)
+            calculadora.escribir(this.screen)
         }
         else {
             this.mrcOnce = true
             this.num2=this.memory
             this.screen=this.num2
             this.memory=""
-            escribir(this.screen)
+            calculadora.escribir(this.screen)
         }
     }
     mMenos() {
@@ -85,7 +85,7 @@ class Calculadora {
         this.operacion="-"
         this.memory=""
         
-        escribir(this.igual())
+        calculadora.escribir(this.igual())
     }
     mMas() {
         this.mrcOnce = false
@@ -94,7 +94,7 @@ class Calculadora {
         this.operacion="+"
         this.memory=""
 
-        escribir(this.igual())
+        calculadora.escribir(this.igual())
     }
     borrar() {
         this.mrcOnce = false
@@ -102,7 +102,7 @@ class Calculadora {
         this.num2=""
         this.operacion=""
         this.screen=""
-        escribir(this.screen)
+        calculadora.escribir(this.screen)
     }
     igual() {
         this.mrcOnce = false
@@ -110,23 +110,24 @@ class Calculadora {
         try{
             result= eval(Number(this.num1)+""+this.operacion+""+Number(this.num2))
         }catch(err){
-            escribir( "Error: "+err )
+            calculadora.escribir( "Error: "+err )
         }
         
         this.memory=""+result
         this.screen=""
         this.num1=""
         this.num2=""
-        escribir(""+result)
+        calculadora.escribir(""+result)
 
+    }
+    escribir(content) {
+        document.getElementsByTagName("input")[0].value =content
     }
 
 
 }
 
-function escribir(content){
-    document.getElementsByTagName("input")[0].value =content
-}
+
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
     switch(keyName){
