@@ -96,9 +96,9 @@ class CalculadoraCientifica extends Calculadora {
             
         }
         
-        this.screen=""
+        this.screen=""+result
         this.num1=""
-        this.num2=""
+        this.num2=""+result
         result=""+result
         if (this.notacionCientifica){
             var parteEntera = result.substring(0,1)
