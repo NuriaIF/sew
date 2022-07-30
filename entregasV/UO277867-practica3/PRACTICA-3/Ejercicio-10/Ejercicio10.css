@@ -1,0 +1,71 @@
+/*Especificidad: 0 0 1*/
+body{
+    padding-right: 2em;
+    background-color: black;
+    width: 75%;
+    left: 10%;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Especificidad: 0 1 1*/
+section[name=grafica] {
+
+    background-color: rgb(0, 0, 0); 
+    position: relative;
+    height:30em;
+    width: 100%;
+    border: 1px black solid;
+    vertical-align: bottom; 
+    font-size: 1em; 
+    color: greenyellow;
+    border: solid 1em green;
+}
+/*Especificidad: 0 0 1*/
+canvas{
+    width: 100%;
+    margin-left: 1em;
+}
+/*Especificidad: 0 0 1*/
+/*Especificidad: 0 0 1*/
+h1,h2{
+    color: chartreuse;
+}
+/*Especificidad: 0 0 1*/
+h2{
+    position: relative;
+    left: 1em;
+}
+/*Especificidad: 0 1 1*/
+p[name=dato]{
+    position: relative;
+    left: 3em;
+    bottom: 6em;
+}
+/*Especificidad: 0 1 1*/
+p[name=fecha]{
+    position: absolute;
+    font-weight: bold;
+    color: greenyellow;
+    transform: rotate(-45deg);
+    bottom: -5em;
+}
+/*Especificidad: 0 0 1*/
+footer{
+    top: 10em;
+    background-color: rgb(0, 0, 0); 
+    position: relative;
+    width: 100%;
+    border: 1px black solid;
+    vertical-align: bottom; 
+    font-size: 1.3em; 
+    color: greenyellow;
+    border: solid 0.6em green;
+}
+/*Especificidad: 0 0 2*/
+footer p{
+    margin: 1em;
+}
+/*Especificidad: 0 0 3*/
+footer p a{
+    color: rgb(226, 255, 183)
+}

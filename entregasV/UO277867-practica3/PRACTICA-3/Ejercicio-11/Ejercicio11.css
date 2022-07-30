@@ -1,0 +1,17 @@
+/*Especificidad: 0 0 1*/
+body{
+    background-color: blanchedalmond;
+    color: sienna;
+}
+/*Especificidad: 0 0 1*/
+h1{
+    text-align: center;
+}
+/*Especificidad: 0 0 1*/
+p{
+    padding:0.5em ;
+}
+/*Especificidad: 0 0 1*/
+img{
+    width: 100%;
+}
